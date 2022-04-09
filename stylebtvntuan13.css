@@ -16,7 +16,6 @@ ul, ol{
 a{
     text-decoration: none;
 }
-
 .container{
     max-width: 1200px;
     background-color: #dfdfdf;
@@ -24,7 +23,6 @@ a{
 }
 .row{
     display: flex;
-    
 }
 .col{
     width: calc(100%/6);
@@ -33,10 +31,8 @@ a{
     border-radius: 3px;
     box-shadow: 3px 3px 5px 0px rgb(88, 48, 48);
 }
-
 img{
-    width: 100%;
-    
+    width: 100%;   
 }
 .col:last-child{
     margin-right: 0px;
@@ -50,11 +46,9 @@ img{
     padding: 6px;
     background-color: #fdfafa;
 }
-
 div .fas{
     color: #ffd93d;
 }
-
 .discount-price{
     text-decoration: line-through;
     margin-right: 5px;
@@ -63,7 +57,6 @@ div .fas{
     font-size: 14px;
     margin: 5px 0;
 }
-
 .re-price{
     margin-top: 4px;
     color: #D9534F;
